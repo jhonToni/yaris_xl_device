@@ -71,6 +71,15 @@ BOARD_EGL_CFG := device/yaris_xl/alcatelc7/configs/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
+# FMRadio
+MTK_FM_SUPPORT := yes
+MTK_FM_RX_SUPPORT := yes
+MTK_FM_CHIP := MT6627_FM
+FM_LIB_BUILD_MT6620 := yes
+FM_LIB_BUILD_MT6627 := yes
+FM_LIB_BUILD_MT6628 := yes
+FM_LIB_BUILD_MT6630 := yes
+
 # MTK Hardware
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
